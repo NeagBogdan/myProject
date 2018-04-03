@@ -1,4 +1,4 @@
 package Ui;
 
-public class StoreUi {
+public class StoreUI {
 }
