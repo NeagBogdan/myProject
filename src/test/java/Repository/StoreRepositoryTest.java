@@ -136,4 +136,22 @@ public class StoreRepositoryTest {
             System.out.println(e.getMessage());
         }
     }
+
+    @org.junit.Test
+    public void Integration(){
+        addNewProduct();
+    }
+
+    @org.junit.Test
+    public void IntegrationAB(){
+        addNewProduct();
+        getProductsCategory();
+    }
+
+    @org.junit.Test
+    public  void IntegrationABC(){
+        addNewProduct();
+        getProductsCategory();
+        stockSituationProduct();
+    }
 }
